@@ -27,13 +27,13 @@ const onFinish = (values: any) => {
 
 const  Register = () => (
 
-  const formik = useFormik({
-    initialValues: {
-      username: "",
-      password: "",
-    },
-    onSubmit: handleSubmit,
-  });
+  // const formik = useFormik({
+  //   initialValues: {
+  //     username: "",
+  //     password: "",
+  //   },
+  //   onSubmit: handleSubmit,
+  // });
  
 
   <Form onSubmit
